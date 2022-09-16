@@ -1,0 +1,44 @@
+/* I'm a tablet */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    
+}
+
+/* I'm a mobile */
+@media only screen and (max-width: 46.25em) {
+    .sub-block {
+        display: none;
+    }
+
+    .name-block {
+        font-weight: bold;
+    }
+
+    .nav_bars-btn {
+        display: block;
+        margin-inline-start: auto;
+        margin-right: 10px;
+    }
+
+    .search-item-btn {
+        display: none;
+    }
+
+    #header-item {
+        display: none;
+    }
+}
+
+/* mobile and tablet */
+@media only screen and (max-width: 63.9375em) {
+    #content {
+        display: block;
+    }
+
+    .posts-content {
+        width: 100%;
+    }
+
+    .tools-content {
+        width: 100%;
+    }
+}
